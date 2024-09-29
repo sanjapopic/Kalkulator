@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(34, 34, 34), rgb(79, 79, 79));
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+
+#container {
+    width: 400px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#inputPolje {
+    width: 100%;
+    margin-top: 20px;
+    height: 70px;
+    border: none;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.btns {
+    height: 430px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btns button {
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(182, 182, 182);
+    cursor: pointer;
+    color: black;
+}
+
+button.op {
+    background-color: rgb(98, 255, 255);
+    color: rgb(5, 0, 140);
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(154, 154, 154);
+}
+
+button:active {
+    background-color: rgb(88, 88, 88);
+}
+
+button.op:hover{
+    background-color: rgb(90, 231, 231);
+}
+
+button.op:active{
+    background-color: rgb(41, 154, 154);
+}
+
+
